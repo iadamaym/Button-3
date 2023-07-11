@@ -1,0 +1,38 @@
+ /*WEB.END*/
+
+ body {
+    color: #fff;
+    background: #000;
+    font: 300 1em "Fira Sans", sans-serif;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+  }
+  
+  /*BTN*/
+  
+  button {
+    background: none;
+    border: 2px solid #00ccff;
+    font: inherit;
+    line-height: 1;
+    color: #00ccff;
+    margin: 0.5em;
+    padding: 1em 2em;
+    letter-spacing: 5px;
+    transition: 0.25s;
+  }
+  
+  button:hover, button:focus {
+    border-color: #00ccff;
+    color: #fff;
+  }
+  
+  .btn-3:hover,
+  .btn-3:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em #00ccff;
+    transform: translateY(-0.25em);
+  }
